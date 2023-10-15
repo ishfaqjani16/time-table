@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+html {
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.dark-mode {
+  color: white;
+  background-color: black;
+}
+.light-mode {
+  color: black;
+  background-color: white;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  padding: 10px 10%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+a img {
+  width: 130px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+main h1 {
+  margin: 10px 0px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}
+table p {
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+footer p {
+  text-align: center;
+}
+/* Light Mode */
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
